@@ -1,7 +1,7 @@
 
 let player;
 let floor;
-let 
+let playerAir=False;
 
 function setup(){
     new Canvas(600,400);
