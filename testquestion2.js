@@ -17,4 +17,5 @@ function setup(){
 function draw(){
     background("blue");
     camera.x=player.x;
+    player.vel.x=6
 }
