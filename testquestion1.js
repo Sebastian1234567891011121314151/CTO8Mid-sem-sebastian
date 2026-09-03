@@ -6,7 +6,7 @@ function setup(){
     new Canvas(600,400);
     background("blue");
     world.gravity.y=10;
-    player=new Sprite(300,200,30,30);
+    player=new Sprite(0,0,30,30);
     player.color="black";
     
 
