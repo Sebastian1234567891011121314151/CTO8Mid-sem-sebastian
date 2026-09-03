@@ -11,3 +11,5 @@ function setup(){
     floor.color="green";
 
 }
+
+function draw(){}
