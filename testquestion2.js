@@ -13,7 +13,7 @@ function setup(){
     floor=new Sprite(300,350,2400,20,"static");
     floor.color="green";
 
-}
+};
 
 function draw(){
     background("blue");
@@ -27,6 +27,6 @@ function draw(){
 
 
     if (player.collides(floor)){
-
+        
     };
 };
