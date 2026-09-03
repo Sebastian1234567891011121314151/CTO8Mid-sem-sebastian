@@ -1,7 +1,7 @@
 
 let player;
 let floor;
-let playerAir=False;
+let playerAir=false;
 
 function setup(){
     new Canvas(600,400);
@@ -27,6 +27,6 @@ function draw(){
 
 
     if (player.collides(floor)){
-        playerAir=False;
+        playerAir=false;
     };
 };
