@@ -1,5 +1,5 @@
 function setup(){
-    newCanvas(600,400);
+    new Canvas(600,400);
 
     let player=new Sprite(300,200,30,30);
     world.gravity.y=10;
