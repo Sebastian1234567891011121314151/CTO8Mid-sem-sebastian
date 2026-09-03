@@ -21,7 +21,7 @@ function draw(){
     player.vel.x=6
 
     if((kb.presses("space")||mouse.presses("left"))&& playerAir==False){
-        player.vel.y=-15;
+        player.vel.y=-5;
         playerAir=True;
     }
 }
