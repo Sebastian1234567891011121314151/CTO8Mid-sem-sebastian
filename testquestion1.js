@@ -11,5 +11,5 @@ function setup(){
     
 
     floor =new Sprite(500,350,2400,20,"static");
-    floor.color=
+    floor.color="yellow";
 }
