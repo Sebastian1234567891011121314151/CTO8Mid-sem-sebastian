@@ -24,4 +24,7 @@ function draw(){
         player.vel.y=-5;
         playerAir=True;
     }
+
+
+    if (player.collides(floor)){}
 }
