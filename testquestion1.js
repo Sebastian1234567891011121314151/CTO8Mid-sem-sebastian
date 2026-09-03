@@ -1,5 +1,5 @@
-
-
+let player;
+let floor;
 
 
 function setup(){
@@ -9,5 +9,5 @@ function setup(){
     player=new Sprite(300,200,30,30);
     
 
-    floor=new Sprite(500,350,2400,20,"static");
+    floor =new Sprite(500,350,2400,20,"static");
 }
