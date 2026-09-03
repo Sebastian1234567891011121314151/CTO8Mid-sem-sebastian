@@ -18,13 +18,15 @@ function setup(){
 function draw(){
     background("blue");
     camera.x=player.x;
-    player.vel.x=6
+    player.vel.x=6;
 
     if((kb.presses("space")||mouse.presses("left"))&& playerAir==False){
         player.vel.y=-5;
         playerAir=True;
-    }
+    };
 
 
-    if (player.collides(floor)){}
-}
+    if (player.collides(floor)){
+
+    };
+};
