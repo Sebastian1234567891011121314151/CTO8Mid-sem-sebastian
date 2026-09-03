@@ -1,4 +1,3 @@
-
 function setup(){
     newCanvas(600,400)
 
