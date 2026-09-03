@@ -16,5 +16,5 @@ function setup(){
 
 function draw(){
     background("blue");
-    camera
+    camera.x=player.x;
 }
