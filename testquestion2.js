@@ -27,6 +27,6 @@ function draw(){
 
 
     if (player.collides(floor)){
-        
+        playerAir=False;
     };
 };
