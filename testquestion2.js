@@ -20,7 +20,7 @@ function draw(){
     camera.x=player.x;
     player.vel.x=6;
 
-    if((kb.presses("space")||mouse.presses("left"))&& playerAir==False){
+    if((kb.presses("space")||mouse.presses("left"))&& playerAir==false){
         player.vel.y=-5;
         playerAir=true;
     };
