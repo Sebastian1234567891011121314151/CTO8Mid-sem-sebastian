@@ -22,7 +22,7 @@ function draw(){
 
     if((kb.presses("space")||mouse.presses("left"))&& playerAir==False){
         player.vel.y=-5;
-        playerAir=True;
+        playerAir=true;
     };
 
 
