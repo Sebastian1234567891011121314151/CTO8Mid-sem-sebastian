@@ -1,6 +1,7 @@
 
 let player;
 let floor;
+let 
 
 function setup(){
     new Canvas(600,400);
